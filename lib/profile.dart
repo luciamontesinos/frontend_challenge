@@ -73,7 +73,10 @@ class _ProfilePageState extends State<ProfilePage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset("assets/tonsser.png"),
+                                  Image.asset(
+                                    "assets/tonsser.png",
+                                    scale: 0.25,
+                                  ),
                                   Text(
                                     "DISCOVER",
                                     style: discoverTextStyle,
